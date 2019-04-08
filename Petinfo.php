@@ -37,7 +37,7 @@ $type =$row["pet_type"];
                     $sql = mysqli_query($con,$q);
                     echo(mysqli_fetch_assoc($sql)['display_name']); ?> </button></a>
                     </form> </h2>
-            <h2> Special Requirements: <!-- input php--> </h2>
+            
             <?php if($powner == $current) { ?>
             <div class="clearfix">
                 <button type="next" class="Editbtn">Edit</button></div> <!-- add js-->
