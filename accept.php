@@ -8,11 +8,12 @@ $cid = $row['cid'];
 $pid = $row['pid'];
 $ava = $row['availability'];
 if(!$ava){
-    echo("This service is unavailable");	
-header('refresh:1; url=services.php');
+	echo"<script>alert('This service is unavailable')</script>";	
+	header('refresh:1; url=services.php');
 }
-elseif(!$pid){echo("No pet registered");
-header('refresh:1; url=services.php');
+elseif(!$pid){
+	echo"<script>alert('No pet registered')</script>";
+	header('refresh:1; url=services.php');
 }
 else{
     $q= "UPDATE Service Set Availability = false where sid = $sid";
