@@ -27,11 +27,11 @@ include('header.php');
                     </div >
                     <div class =" form-group ">
                         <label for=" startdate_in ">Start Date: </ label > <!-- add php-->
-                        <input type ="text" class =" form-control " name="startdate_in" placeholder="DDMM-DDMM">
+                        <input type ="text" class =" form-control " name="startdate_in" placeholder="DD Month YYYY">
                     </div >
                     <div class =" form-group ">
                         <label for="enddate_in ">End Date: </ label > <!-- add php-->
-                        <input type ="text" class =" form-control " name="enddate_in" placeholder="DDMM-DDMM">
+                        <input type ="text" class =" form-control " name="enddate_in" placeholder="DD Month YYYY">
                     </div >
                     <div class =" form-group ">
                         <label for="Min_bid_in">Minimum bid: </ label > <!-- add php-->
