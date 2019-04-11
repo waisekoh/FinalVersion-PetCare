@@ -14,7 +14,7 @@ $reco = mysqli_query($con,$q2);
 <html lang="en">
 <head>
     <title>Welcome to PAWsome Boarding</title>  
-    <link rel="stylesheet" type="text/css" href="css/login-ed.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
   
 <div class="split left"> 
