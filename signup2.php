@@ -8,6 +8,7 @@ session_start();
         <link rel="stylesheet" type="text/css" href="css/style2.css">
     </head>
     <body>
+	<div class="signup">
         <header> Sign Up As: </header>
         
         <h1>
@@ -16,7 +17,7 @@ session_start();
             <label class = "checkboxes">
                 <INPUT TYPE="radio" Name="radio" Value ="Owner"> Pet Owner</INPUT><br> <!-- input php-->
                 <INPUT TYPE="radio" Name= "radio" Value ="CareTaker"> Caretaker</INPUT></label>  <!-- input php-->
-				<INPUT TYPE="submit" NAME="submit" Value="Sign Up" />
+				<INPUT class="nextbtn" TYPE="submit" NAME="submit" Value="Sign Up" />
             </form>
             </div>
         </h1>
@@ -25,6 +26,7 @@ session_start();
                     <button type="submit" NAME= "submit" class="Signupbtn">Sign Up</button>
                 </div> -->
         </h2>
+	</div>
     </body>
 </html>
 

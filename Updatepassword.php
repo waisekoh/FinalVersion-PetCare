@@ -17,10 +17,11 @@ $rows = mysqli_fetch_assoc($result)
     
     <body>
 		<center>
-			<h4><header>Change Password</header></h4>
+		<div class="box">
+			<h3><header>Change Password</header></h3>
 			<div class="container">
 				<form role="form" action="Updatepassword1.php" method="POST">
-					<h1>
+					<h3>
 						<!-- Text field -->
 						<div class =" form-group ">
 							<label for=" inputOPassword ">Old Password:</ label > <!-- input php-->
@@ -34,14 +35,15 @@ $rows = mysqli_fetch_assoc($result)
 							<label for=" reenterNPassword ">Re-enter New Password:</ label > <!-- input php-->
 							<input type ="password" class =" form-control " id=" reenterNPassword " name="confirmnewpassword">
 						</div >
-					</h1>
+					</h3>
 					<h2>
 						<div class="clearfix">
-							<button type="next" class="Signupbtn">Change Password</button> <!-- add js-->
+							<button type="next" class="btn">Change Password</button> <!-- add js-->
 						</div >
 					</h2>
 				</form>
 			</div>
+		</div>
 		</center>
     </body>
 </html>
