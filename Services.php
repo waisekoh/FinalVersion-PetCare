@@ -21,7 +21,7 @@ $result = mysqli_query($con, $query);
         <?php
   if(mysqli_num_rows($result)>0){
   ?>
-  <table align="center" border="1px" style="width:800px; line-height:40px;">
+  <table class="words" align="center" border="1px" style="width:800px; line-height:40px;">
    <tr>
     <th colspan="9"><h2>Service</h2></th>
    </tr>
