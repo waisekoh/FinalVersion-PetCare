@@ -59,3 +59,30 @@ button {
     margin: 0 auto;
     width: 150px;
 }
+
+.searchbtn {
+	width: 30px;
+}
+
+.btn {
+	font-family: inherit;
+    border-radius: 12px;
+    background-color: #f1f1f1;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 15pt;
+    margin: 0px;
+    padding: 0px;
+	background-image: url("https://data.whicdn.com/images/260360288/superthumb.jpg?t=1474974426");
+}
+
+.profile {
+    width: 50%;
+    border: 2px solid #f1f1f1;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 50px;
+    background-color: white;
+}
