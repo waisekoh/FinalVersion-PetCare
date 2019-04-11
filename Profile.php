@@ -20,22 +20,23 @@
                     </label>
                 </form>
         </div>
-
+		<div class="box">
         <header>Profile</header>
         
-        <h2> First name: <!-- input first name php--> </h2>
-        <h2> Last Name: <!-- input last name php--> </h2>
-        <h2> Display Name: <!-- input display name php--> </h2>
-        <h2> Gender: <!-- input gender php--> </h2>
-        <h2> Phone Number: <!-- input phone number php--> </h2>
-        <h2> Email: <!-- input email php--> </h2>
-        <h2> Country: <!-- input country php--> </h2>
-        <h2> Address: <!-- input address php--> </h2>
-        <h2> Birthday: <!-- input birthday php--> </h2>
+        <h4> First name: <!-- input first name php--> </h4>
+        <h4> Last Name: <!-- input last name php--> </h4>
+        <h4> Display Name: <!-- input display name php--> </h4>
+        <h4> Gender: <!-- input gender php--> </h4>
+        <h4> Phone Number: <!-- input phone number php--> </h4>
+        <h4> Email: <!-- input email php--> </h4>
+        <h4> Country: <!-- input country php--> </h4>
+        <h4> Address: <!-- input address php--> </h4>
+        <h4> Birthday: <!-- input birthday php--> </h4>
         
         <div class="clearfix">
                 <button type="next" class="Updatebtn">Update Profile</button> <!-- add js-->
                 <button type="next" class="Updatebtn">Update Password</button> <!-- add js-->
         </div>
+		</div>
     </body>
 </html>    

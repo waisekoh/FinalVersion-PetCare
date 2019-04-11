@@ -22,20 +22,21 @@ $country = $rows['country']
     </head>
     
     <body>
+	<div class="box">
         <center>
             <header><?php echo $dname; ?></header>
         
-            <h2> Gender: <?php echo $gender; ?> </h2>
-            <h2> Email: <?php echo $email; ?> </h2>
-            <h2> Country: <?php echo $country; ?></h2>
-            <h2> Age: <?php echo $age; ?> </h2>
+            <h4> Gender: <?php echo $gender; ?> </h4>
+            <h4> Email: <?php echo $email; ?> </h4>
+            <h4> Country: <?php echo $country; ?></h4>
+            <h4> Age: <?php echo $age; ?> </h4>
                     
         </center>
 
         <div>
         <center>
 		<div class="container row">
-			<h1> Reviews: </h1>
+			<h3> Reviews: </h3>
 			<?php
 			$pq = "SELECT * from caretakerreviews where cid = $oid";
 			$pqcont = mysqli_query($con,$pq);
@@ -45,6 +46,7 @@ $country = $rows['country']
 			<?php } ?>
         </div>
         </center>
+	</div>
         </div>
     </body>
 </html>  
