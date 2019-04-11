@@ -11,6 +11,7 @@
     </head>
     
     <body>
+	<div class="box">
 	<center>
 	<?php
 		if(isset($_POST['submitsearch'])){
@@ -77,6 +78,7 @@
 		}
 	?>
 	</center>
+	</div>
 	</body>
 
 
