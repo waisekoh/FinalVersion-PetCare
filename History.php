@@ -23,6 +23,7 @@ $result = mysqli_query($con, $query);
     </head>
     
     <body>
+<div class="box">
  <center>
 
    <?php
@@ -104,6 +105,7 @@ $result = mysqli_query($con, $query);
    <?php }
   }
    ?>
-    </center>    
+    </center>  
+</div>	
     </body>
 </html>

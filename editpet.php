@@ -20,10 +20,10 @@
                     </label>
                 </form>
         </div>
-
+<div class="box">
         <header>Edit Pet</header>
         
-        <h1>
+        <h4>
             <div class="container">
                 <form role="form">
                     <div class =" form-group ">
@@ -36,13 +36,14 @@
                     </div >
                 </form>
             </div>
-        </h1>
-        
+        </h4>
+
         <h2>
             <div class="clearfix">
                 <button type="next" class="Savebtn">Save</button> <!-- add js-->
             </div>
         </h2>
+	</div>
     </body>
 </html>
         

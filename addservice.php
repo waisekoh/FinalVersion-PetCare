@@ -12,12 +12,13 @@ include('header.php');
     </head>
     
     <body>
+	<div class="box">
 	<center>
 
 
         <header><h3> Add Service </h3></header>
         
-        <h1>
+        <h4>
             <div class="container">
                 <form class="Addsvcbtn" action="addservice2.php" method ="POST">
                     <!-- Text field -->
@@ -64,11 +65,12 @@ include('header.php');
                     </div>
                 </form>
             </div>
-        </h1>
+        </h4>
         
         <h2>
            
         </h2>
 		</center>
+		</div>
     </body>
 </html>
