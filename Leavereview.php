@@ -15,7 +15,7 @@ $reviewee = $_POST['reviewee'];
     </head>
     
     <body>
-
+	<div class="box">
         <header>Leave A Review</header>
         
         <h1>
@@ -32,7 +32,7 @@ $reviewee = $_POST['reviewee'];
 					</form>
 				</div>
 			</div>
-			
+	</div>
         </h2>
     </body>
 </html>

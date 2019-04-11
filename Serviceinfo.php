@@ -28,15 +28,15 @@ $ctname = mysqli_fetch_assoc($sql)['display_name'];
     
     <body>
     <center>
-
+	<div class="box">
         <header>Services</header>
         <div class="container row" >
             
-            <h2> Service Name: <?php echo($service) ?> <!-- input php--> </h2>
-            <h2> CareTaker Name: <?php echo($ctname) ?> <!-- input php--> </h2>
-            <h2> Period: <?php echo($fromdate) ?> to <?php echo($todate) ?> </h2>
-            <h2> Pet Type Accepted: <?php echo($ptype) ?></h2>
-            <h2> Current bid: <?php echo($minbid) ?></h2>
+            <h4> Service Name: <?php echo($service) ?> <!-- input php--> </h4>
+            <h4> CareTaker Name: <?php echo($ctname) ?> <!-- input php--> </h4>
+            <h4> Period: <?php echo($fromdate) ?> to <?php echo($todate) ?> </h4>
+            <h4> Pet Type Accepted: <?php echo($ptype) ?></h4>
+            <h4> Current bid: <?php echo($minbid) ?></h4>
 
             <form class="owner-form" action="profileothers.php" method ="POST">
             <button  name="oid_in" Value = <?php echo $cid ; ?> style="border: Black; background: white;"><h5> See Provider</h5> </button>
@@ -53,7 +53,7 @@ $ctname = mysqli_fetch_assoc($sql)['display_name'];
                 <button type="submit" name="submitsearch">Bid</button>
                 </form>
             <?php } ?>
-
+	</div>
             
 
         

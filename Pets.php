@@ -16,7 +16,7 @@ $result = mysqli_query($con, $query);
     </head>
     
     <body>
-
+	<div class = "box">
 
         <?php
 		if(mysqli_num_rows($result)>0){
@@ -73,6 +73,6 @@ $result = mysqli_query($con, $query);
                 <a href=addpet.php><button type="next" class="Addpetbtn">Add Pet</button></a>
 			</div> <!-- add js-->
         </h1>
-        
+    </div>
     </body>
 </html>

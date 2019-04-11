@@ -79,14 +79,14 @@ $result = mysqli_query($con, $query);
   <?php
   }
   else{
-   ?> <h2><a> You do not have any Services Registered </a></h2> 
+   ?><div class="words"><h2><a> You do not have any Services Registered </a></h2>
   <?php }
   ?>
   <p></p>
         <h1>
             <div align="center" class="clearfix">
             <a href="addservice.php"> <button type="next" class="addsvcbtn">Add Service</button></a> 
-        </h1>
+        </h1></div></div>
      </center>
     </body>
 </html>

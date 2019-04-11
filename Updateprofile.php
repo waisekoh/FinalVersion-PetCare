@@ -17,10 +17,11 @@ $rows = mysqli_fetch_assoc($result)
     
     <body>
 		<center>
-			<h4><header>Update Profile</header></h4>
+		<div class="profile">
+			<h3><header>Update Profile</header></h3>
 			<div class="container">
 				<form role="form" action="Updateprofile1.php" method="POST">
-					<h1>
+					<h4>
 						<div class =" form-group ">
 							<label for=" inputEmail ">Email:</ label >
 							<input type ="email" class =" form-control " id=" inputEmail " name="email">
@@ -37,10 +38,10 @@ $rows = mysqli_fetch_assoc($result)
 							<label for="inputCountry">Country:</label> 
 							<input type="text" class="form-control" id="inputCountry" name="country">
 						</div>
-					</h1>
+					</h4>
 					<h2>
 						<div class="clearfix">
-							<button type="next" class="Signupbtn">Update Profile</button> <!-- add js-->
+							<button type="next" class="btn">Update Profile</button> <!-- add js-->
 						</div>
 					</h2>
 				</form>
