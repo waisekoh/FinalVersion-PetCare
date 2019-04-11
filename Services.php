@@ -16,12 +16,13 @@ $result = mysqli_query($con, $query);
     </head>
     
     <body>
+	<div class="words">
  <center>
         <p> </p>
         <?php
   if(mysqli_num_rows($result)>0){
   ?>
-  <table class="words" align="center" border="1px" style="width:800px; line-height:40px;">
+  <table align="center" border="1px" style="width:800px; line-height:40px;">
    <tr>
     <th colspan="9"><h2>Service</h2></th>
    </tr>
@@ -79,7 +80,7 @@ $result = mysqli_query($con, $query);
   <?php
   }
   else{
-   ?><div class="words"><h2><a> You do not have any Services Registered </a></h2>
+   ?><center><div class="words"><h2><a> You do not have any Services Registered </a></h2></center>
   <?php }
   ?>
   <p></p>
@@ -88,5 +89,6 @@ $result = mysqli_query($con, $query);
             <a href="addservice.php"> <button type="next" class="addsvcbtn">Add Service</button></a> 
         </h1></div></div>
      </center>
+	 </div>
     </body>
 </html>
