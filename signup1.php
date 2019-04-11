@@ -9,6 +9,7 @@ session_start();
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
+	<div class="signup">
         <header> Sign Up </header>
         <div class="container">
 
@@ -49,6 +50,7 @@ session_start();
 						<option value="F" name="inputGender">F</option>
 					</select>
             </div>
+			<br>
             <div class="form-group">
                 <label for="inputAddress">Address</label> <!-- add php-->
                 <input type="text" class="form-control" name="inputAddress">
@@ -66,6 +68,7 @@ session_start();
                 <button type="next" class="nextbtn">Next</button> <!-- add js-->
             </div>
 			</form>
+		</div>
    
         </div>
     </body>
