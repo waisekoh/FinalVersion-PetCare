@@ -12,9 +12,10 @@ include('header.php');
     
     <body>
 	<center>
+	<div class="box">
         <header>Add Pet</header>
             <div class="container">
-			<h1>
+			<h3>
                 <form role="form" action="addpet1.php" method="POST">
                     
                     <div class =" form-group ">
@@ -42,7 +43,7 @@ include('header.php');
 						<option value="David" name="type">David</option>
 					</select>
 					</div>
-			</h1>
+			</h3>
         
         <h2>
             
@@ -50,5 +51,6 @@ include('header.php');
         </h2>   
 			</div>
 			</form>
+	</div>
     </center></body>
 </html>

@@ -24,19 +24,19 @@ $type =$row["pet_type"];
     
     <body>
 
-
+<div class="box">
         <header>Pet Information</header>
         
         <div class="container row">
-            <h2> Pet ID: <?php echo $pid; ?> </h2>
-            <h2> Pet Name:  <?php echo $pname; ?></h2>
-            <h2> Breed Type: <?php echo $type; ?></h2>
-            <h2> Owner: <form class="owner-form" action="profileothers.php" method ="POST">
+            <h4> Pet ID: <?php echo $pid; ?> </h4>
+            <h4> Pet Name:  <?php echo $pname; ?></h4>
+            <h4> Breed Type: <?php echo $type; ?></h4>
+            <h4> Owner: <form class="owner-form" action="profileothers.php" method ="POST">
                     <button  name="oid_in" Value = <?php echo $powner; ?> style="border: none; background: none;"> <?php 
                     $q= "SELECT display_name FROM Users WHERE UserID = $powner";
                     $sql = mysqli_query($con,$q);
                     echo(mysqli_fetch_assoc($sql)['display_name']); ?> </button></a>
-                    </form> </h2>
+                    </form> </h4>
             
             <?php if($powner == $current) { ?>
             <div class="clearfix">
@@ -48,7 +48,7 @@ $type =$row["pet_type"];
         <p> </p>
         
         <div class="container row">
-			<h1> Reviews: </h1>
+			<h3> Reviews: </h3>
 			<?php
 			$pq = "SELECT review from petreview where pid = $pid";
 			$pqcont = mysqli_query($con,$pq);
@@ -56,6 +56,7 @@ $type =$row["pet_type"];
 				<h3> <?php echo($prow['review']) ?></h3>
 			<?php } ?>
         </div>
+	</div>
         
     </body>
 </html>
