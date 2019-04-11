@@ -103,11 +103,18 @@ body {
 	background-image: url("http://images.unsplash.com/photo-1522276498395-f4f68f7f8454?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
 }
 
-.right, .left {
+.right {
 	background-color: white;
-	width: 50%;
+	width: 49%;
 	padding: 3px;
 	opacity: 0.7;
 	border: 2px solid grey;
-	margin: 10px;
+}
+
+.left {
+	background-color: white;
+	width: 49%;
+	padding: 3px;
+	opacity: 0.7;
+	border: 2px solid grey;
 }
